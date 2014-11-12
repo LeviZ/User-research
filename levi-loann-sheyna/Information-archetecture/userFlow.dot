@@ -1,0 +1,38 @@
+digraph userFlow {
+  a[label="Top of the Page" shape=triangle];
+  b[label="Button with Nested Sub-Category" shape=rect];
+  c[label="Sub-Cattegory" shape=rect];
+  d[label="Headed in the right direction?" shape=diamond];
+  e[label="Collapse" shape=oval];
+  f[label="Back to Top" shape=oval];
+  g[label="Content" shape=rect styled=filled];
+  h[label="Did the user find what the they needed?" shape=diamond];
+  i[label="Collapse" shape=oval];
+  j[label="Back to Top" shape=oval];
+  k[label="Button without Nested Sub-Categories" shape=rect];
+  l[label="Content" shape=rect styled=filled];
+  m[label="Did the user find what the they needed?" shape=diamond];
+  n[label="Collape" shape=oval];
+  o[label="Back to top" shape=oval];
+
+  a -> b;
+  b -> c;
+  c -> d;
+  d -> e[label="No"];
+  d -> f[label="No"];
+  d -> g[label="Yes"];
+  e -> c;
+  f -> a;
+  g -> h;
+  h -> i[label="No"];
+  h -> j[label="No"];
+  i -> g;
+  j -> a;
+  a -> k;
+  k -> l;
+  l -> m;
+  m -> n[label="No"];
+  m -> o[label="No"];
+  n -> k;
+  o -> a;
+}
