@@ -1,0 +1,87 @@
+﻿User Behavior Interview Study
+
+
+Background
+As the sport of Disc Golf’s popularity grows, it brings on players who need to be educated about the game. The rules, governed by the Professional Disc Golf Association, continue to define and refine it’s rules. This has left both new and experienced disc golfers confused. 
+
+
+Goals
+Identify the strengths and weaknesses of the way the PDGA currently delivers it’s rules. Provide opportunities for improvement.
+
+
+Research Questions
+1. How does a disc golfer find a information when faced with an unknown situation on the course?
+2. What is their usability pattern?
+3. Is the user satisfied with the PDGA user experience?
+4. Does knowing the rule make the game more enjoyable for you?
+
+
+
+
+
+
+Methodology
+
+
+        Interviews were conducted with # participants. Participants were categorized into one of 3 personas. 
+
+
+1. Experienced Disc Golfer
+2. Casual Player
+3. New to the Game
+        *Participants were notified of the intention of the exercise prior to start. They were instructed to vocalize their thought process during the usability testing. 
+
+
+        Participants were presented with hypothetical situations.  All situations begin with the player on the course. Under each situation listed below are the observation notes for each user. If a user does not have elaborate notes, it’s noted that the user was able to find the information with relative ease.
+
+
+ The first task is to find the information on the user’s phone. User’s went about this in different ways and therefore took different paths to finding the rules even within the PDGA website.
+
+
+User 1 (Casual)
+Opens mobile browser and searches Google for “PDGA rules” and selects the top result which is the PDGA website. Lands on PDGA rules “Summary” page. 
+User 2 (Experienced)
+Immediately enters “PDGA.com” into mobile browser. Discovers a list of links but none appear useful. Selects the hamburger menu and finds “Official Rules” link.
+        User 3 (New to Game)
+Does a Google search for “rules of disc golf”. Gets Google’s generic description and clicks associated link which is “discgolf.com”. Browses through a list of general rules. Realizing she needs something more specific, she backs out and does a more specific google search. Scans the google results description and selects what seems most relevant. This is the PDGA site. 
+
+
+The following are hypothetical situations presented to the participant:
+
+
+What happens if you accidentally throw another players disc?
+User 1 (Casual)
+Initially tries search button. Gets no results. Gives up on search and eventually finds a “Official Rules” link in the footer of the page. Wants to try another search on this new page but is too skeptical. selects, "The Throw".  Selects “Interference”. User seems semi satisfied with the rule’s explanation.
+User 2 (Experienced)
+User knows this rule and finds answer with relative ease.
+        User 3 
+User is brought to “Rules Q and A” section. Scans the long list of scenarios and eventually gives up after not finding the answer.
+
+
+Does the entire group have to search for a players lost disc? If yes, what if one refuses? 
+User 1 (Casual)
+The user is able to find the answer to the first question relatively easy. But the user then scours through all of the links in attempt to find the answer to the follow up question. Eventually the user gives up and makes his own interpretation of the rule
+User 2 ((Experienced)
+The user begins clicking away and very luckily finds the initial answer fairly quickly. Though it was not in the location that the user had expected. The user was searching for verbage that resembled “Lost Disc”. Instead, the information was located in the “Courtesy” section.
+User 3 (New to Game)
+User tries a new google search for “disc golf player lost disc” after not having success on PDGA from last question. User clicks fist result and find answer to initial question with ease. Tries new google search for “disc golf player lost disc other player won’t help look”. 2nd result is Reddit and is selected. The user quickly realizes her answer will not be here and gives up.
+
+
+
+
+What if my disc is on a bridge, over an OB area? (note: the answer to this question is located in a section called “Rules Q&A”. This is a section that appears to deliver specific real world scenarios to the rest of the existing rulebook)
+User 1 (Casual)
+User looks in contents for something that resembles “Out of Bounds”, initially checking in a link called “The Lie”. User has no success. Eventually goes back and selects “Throw”. Finds the “Out of Bounds” section but after reading through, cannot answer this specific question. The user then begins scouring the contents without logic. Eventually gives up.
+User 2 (Experienced)
+User looks in contents for something that resembles “Out of Bounds”, initially checking in a link called “The Lie”. User has no success. Eventually goes back and selects “Throw”. Finds the “Out of Bounds” section but after reading through, cannot answer this specific question. The user then begins scouring the contents and discovers the “Rules Q & A” section. The answer is at the top in a list of 45 questions. The user is discovering this section for the first time.
+User 3 (New to Game)
+
+
+How many people need to see a violation to issue a warning?
+User 1 (Casual)
+The user looks in “The Throw” section and eventually finds verbage that loosely relates to the question. It states that “anyone can issue a warning”. The user takes this as an acceptable answer and interprets incorrectly.
+User 2 (Experienced)
+The user looks in “The Throw” section and eventually finds verbage that loosely relates to the question. The user backs out and looks toward the top of the list. This is logic is based on the idea that the info is organized from general to specific. The user successfully finds the answer in a more general section.
+
+
+User 3 (New to Game)
