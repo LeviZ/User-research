@@ -15,6 +15,7 @@ var applicationBtn = document.getElementById('applicationBtn');
 
 // Variables of content on the page:
 
+var logo = document.getElementById('logo');
 var basicRulesContent = document.getElementById('basicRulesContent');
 var outOfBoundsContent = document.getElementById('outOfBoundsContent');
 var lostDiscContent = document.getElementById('lostDiscContent');
@@ -30,24 +31,26 @@ var applicationContent = document.getElementById('applicationContent');
 
 // Opening page state:
 
-// document.onload = function() {
-//   document.getElementById('basicRulesContent').style.display = 'none';
-//   document.getElementById('outOfBoundsContent').style.display = 'none';
-//   document.getElementById('lostDiscContent').style.display = 'none';
-//   document.getElementById('obstablesContent').style.display = 'none';
-//   document.getElementById('courtesyContent').style.display = 'none';
-//   document.getElementById('optionalContent').style.display = 'none';
-//   document.getElementById('excessiveContent').style.display = 'none';
-//   document.getElementById('misplayContent').style.display = 'none';
-//   document.getElementById('mandatoriesContent').style.display = 'none';
-//   document.getElementById('interferenceContent').style.display = 'none';
-//   document.getElementById('provisionalContent').style.display = 'none';
-//   document.getElementById('applicationContent').style.display = 'none';
-// });
+window.onload = function() {
+  document.getElementById('logo').style.display = 'block';
+  document.getElementById('basicRulesContent').style.display = 'none';
+  document.getElementById('outOfBoundsContent').style.display = 'none';
+  document.getElementById('lostDiscContent').style.display = 'none';
+  document.getElementById('obstablesContent').style.display = 'none';
+  document.getElementById('courtesyContent').style.display = 'none';
+  document.getElementById('optionalContent').style.display = 'none';
+  document.getElementById('excessiveContent').style.display = 'none';
+  document.getElementById('misplayContent').style.display = 'none';
+  document.getElementById('mandatoriesContent').style.display = 'none';
+  document.getElementById('interferenceContent').style.display = 'none';
+  document.getElementById('provisionalContent').style.display = 'none';
+  document.getElementById('applicationContent').style.display = 'none';
+};
 
 // Button event listeners:
 
 basicRulesBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'block';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -63,6 +66,7 @@ basicRulesBtn.addEventListener("click", function() {
 }, false);
 
 outOfBoundsBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'block';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -78,6 +82,7 @@ outOfBoundsBtn.addEventListener("click", function() {
 }, false);
 
 lostDiscBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'block';
@@ -93,6 +98,7 @@ lostDiscBtn.addEventListener("click", function() {
 }, false);
 
 obstablesBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -108,6 +114,7 @@ obstablesBtn.addEventListener("click", function() {
 }, false);
 
 courtesyBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -123,6 +130,7 @@ courtesyBtn.addEventListener("click", function() {
 }, false);
 
 optionalBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -138,6 +146,7 @@ optionalBtn.addEventListener("click", function() {
 }, false);
 
 excessiveBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -153,6 +162,7 @@ excessiveBtn.addEventListener("click", function() {
 }, false);
 
 misplayBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -168,6 +178,7 @@ misplayBtn.addEventListener("click", function() {
 }, false);
 
 mandatoriesBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -183,6 +194,7 @@ mandatoriesBtn.addEventListener("click", function() {
 }, false);
 
 interferenceBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -198,6 +210,7 @@ interferenceBtn.addEventListener("click", function() {
 }, false);
 
 provisionalBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
@@ -213,6 +226,7 @@ provisionalBtn.addEventListener("click", function() {
 }, false);
 
 applicationBtn.addEventListener("click", function() {
+  document.getElementById('logo').style.display = 'none';
   document.getElementById('basicRulesContent').style.display = 'none';
   document.getElementById('outOfBoundsContent').style.display = 'none';
   document.getElementById('lostDiscContent').style.display = 'none';
